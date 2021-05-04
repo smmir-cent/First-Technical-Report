@@ -76,8 +76,8 @@
 \@department
 \else
 \if@bscthesis
-پروژه کارشناسی
-\vspace{-.8cm}
+گزارش درس روش پژوهش و ارائه
+\vspace{-.5cm}
 
 \@department
 \else

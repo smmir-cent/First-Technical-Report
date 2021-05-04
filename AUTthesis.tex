@@ -35,7 +35,8 @@
 \linespread{1.75}
 \input{fa_title}
 % تاییدیه دفاع
-\input{taid}
+\fontsize{12pt}{14pt}\selectfont
+%\input{taid}
 % چنانچه مایل به چاپ صفحات «تقدیم»، «نیایش» و «سپاس‌گزاری» در خروجی نیستید، خط‌های زیر را با گذاشتن ٪  در ابتدای آنها غیرفعال کنید.
 % پایان‌نامه خود را تقدیم کنید
 % نیایش خود را در فایل زیر بنویسید.
@@ -55,11 +56,12 @@
 \pagenumbering{arabic}
 \pagestyle{style1}
 %--------------------------------------------------------------------------chapters(فصل ها)
+
 \include{chapter1}
 \include{chapter2}
-%\include{chapter3}
-%\include{chapter4}
-%\include{chapter5}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
 
 %--------------------------------------------------------------------------appendix( مراجع و پیوست ها)
 \chapterfont{\vspace*{-2em}\centering\LARGE}%
@@ -67,7 +69,7 @@
 \appendix
 \bibliographystyle{plain-fa}
 \bibliography{references}
-\include{appendix1}
+%\include{appendix1}
 %--------------------------------------------------------------------------dictionary(واژه نامه ها)
 %اگر مایل به داشتن صفحه واژه‌نامه نیستید، خط زیر را غیر فعال کنید.
 %*\parindent=0pt
@@ -75,9 +77,9 @@
 %*\include{dicen2fa}
 %--------------------------------------------------------------------------index(نمایه)
 %اگر مایل به داشتن صفحه نمایه نیستید، خط زیر را غیر فعال کنید.
-\pagestyle{style7}
-\printindex
-\pagestyle{style7}
+%\pagestyle{style7}
+%\printindex
+%\pagestyle{style7}
 %*\include{en-abstract}
 %*\input{en_title}
 \end{document}
