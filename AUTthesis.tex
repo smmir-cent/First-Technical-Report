@@ -51,8 +51,9 @@
 % در صورت تمایل می‌توانید با فعال کردن دستور بالا، لیست تصاویر را به  پایان‌نامه خود اضافه کنید.
 %-------------------------------------------------------------------------symbols(فهرست نمادها)
 % وجود لیست نمادها الزامیست.(لطفاً نمادهای خود را جایگذین نمادهای پیش‌فرض کنید.)
-%*\input{list-of-symbols}
-
+%\cleardoublepage
+\input{list-of-symbols}
+%\cleardoublepage
 \pagenumbering{arabic}
 \pagestyle{style1}
 %--------------------------------------------------------------------------chapters(فصل ها)
@@ -66,7 +67,7 @@
 %--------------------------------------------------------------------------appendix( مراجع و پیوست ها)
 \chapterfont{\vspace*{-2em}\centering\LARGE}%
 
-\appendix
+%\appendix
 \bibliographystyle{plain-fa}
 \bibliography{references}
 %\include{appendix1}
